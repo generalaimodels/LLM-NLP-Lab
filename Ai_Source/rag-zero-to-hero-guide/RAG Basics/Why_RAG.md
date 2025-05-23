@@ -1,6 +1,5 @@
 # Why RAG?
 
-Authored by [Kalyan KS](https://www.linkedin.com/in/kalyanksnlp/). To stay updated with LLM, RAG and Agent updates, you can follow me on [LinkedIn](https://www.linkedin.com/in/kalyanksnlp/), [Twitter](https://x.com/kalyan_kpl) and [YouTube](https://youtube.com/@kalyanksnlp?si=ZdoC0WPN9TmAOvKB). 
 
 LLMs are typically trained on vast datasets comprising text from books, Wikipedia, websites, and code from Github repositories. This training data is collected up to a specific date, meaning that an LLM’s knowledge has a cutoff point tied to when the training data was last updated. For instance, if an LLM’s training data only goes up to December 2023, it lacks information about anything that happened afterward.
 

@@ -1,6 +1,5 @@
 # RAG Stack
 
-Authored by [Kalyan KS](https://www.linkedin.com/in/kalyanksnlp/). To stay updated with LLM, RAG and Agent updates, you can follow me on [LinkedIn](https://www.linkedin.com/in/kalyanksnlp/), [Twitter](https://x.com/kalyan_kpl) and [YouTube](https://youtube.com/@kalyanksnlp?si=ZdoC0WPN9TmAOvKB).
 
 RAG developer’s stack includes LLMs, LLM frameworks, vector databases, data extraction libraries, open LLM access platforms, text embeddings and evaluation libraries. 
 
