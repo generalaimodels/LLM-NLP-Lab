@@ -48,18 +48,18 @@ $$
 
 ### 4.1 1-D Convolution  
 Tasks: audio, DNA, sensor streams  
-• Shapes: $(N,C_{in},L_{in})\rightarrow(N,C_{out},L_{out})$  
-• PyTorch: `nn.Conv1d(C_in, C_out, kernel_size=K, stride=S, padding=P, dilation=D)`  
+- Shapes: $(N,C_{in},L_{in})\rightarrow(N,C_{out},L_{out})$  
+- PyTorch: `nn.Conv1d(C_in, C_out, kernel_size=K, stride=S, padding=P, dilation=D)`  
 
 ### 4.2 2-D Convolution  
 Tasks: image classification, segmentation  
-• Shapes: $(N,C_{in},H_{in},W_{in})\rightarrow(N,C_{out},H_{out},W_{out})`  
-• TensorFlow: `tf.keras.layers.Conv2D(filters=C_out, kernel_size=(K_h,K_w), strides=(S_h,S_w), padding='same|valid', dilation_rate=(D_h,D_w))`
+- Shapes: $(N,C_{in},H_{in},W_{in})\rightarrow(N,C_{out},H_{out},W_{out})`  
+- TensorFlow: `tf.keras.layers.Conv2D(filters=C_out, kernel_size=(K_h,K_w), strides=(S_h,S_w), padding='same|valid', dilation_rate=(D_h,D_w))`
 
 ### 4.3 3-D Convolution  
 Tasks: video, medical volumes  
-• Shapes: $(N,C_{in},D_{in},H_{in},W_{in})\rightarrow(N,C_{out},D_{out},H_{out},W_{out})`  
-• Heavy memory cost ⇒ use `groups`, separable, or (2+1)D factorization.
+- Shapes: $$(N,C_{in},D_{in},H_{in},W_{in})\rightarrow(N,C_{out},D_{out},H_{out},W_{out})$$`  
+- Heavy memory cost ⇒ use `groups`, separable, or (2+1)D factorization.
 
 ### 4.4 Padding Strategies  
 - SAME: choose $P$ to keep $L_{out}=L_{in}$  
@@ -105,7 +105,8 @@ Cons
 ---
 
 ## 7. Cutting-Edge Advances  
-- Depthwise-separable ($\downarrow$ params: $$\approx \tfrac1{C_{out}}$$)  
+- Depthwise-separable $$\downarrow$$ params: 
+  $$\approx \tfrac1{C_{out}}$$
 - Grouped & Shuffle Convs  
 - Dilated-Residual-Dense blocks  
 - Dynamic convolution (input-conditioned kernels)  
