@@ -28,7 +28,7 @@ $$
 
 - Spatial tokenization: map 2-D pixels to 1-D token sequence.  
 - Information preservation: maintain local semantics inside each patch.  
-- Dimensional homogenization: produce uniform $$D$$-dimensional vectors compatible with transformer blocks.  
+- Dimensional homogenization: produce uniform $D$-dimensional vectors compatible with transformer blocks.  
 - Positional awareness: add absolute, relative, or implicit spatial cues.  
 - Efficiency–fidelity trade-off: choose patch size, stride, and projection depth to balance computational cost and representation quality.
 

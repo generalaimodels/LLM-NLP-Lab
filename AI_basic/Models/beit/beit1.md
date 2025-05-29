@@ -1,7 +1,7 @@
-### BEiT: Bidirectional Encoder representation from Image Transformers
+### BEiT: 
 
 #### I. Definition
-BEiT (Bidirectional Encoder representation from Image Transformers) is a self-supervised pre-training framework for vision Transformers. It adapts the Masked Language Modeling (MLM) paradigm from NLP (specifically BERT) to the visual domain, termed Masked Image Modeling (MIM). BEiT pre-trains a Vision Transformer (ViT) to reconstruct original visual tokens corresponding to masked image patches. The visual tokens are obtained from a discrete Variational Autoencoder (dVAE).
+BEiT  is a self-supervised pre-training framework for vision Transformers. It adapts the Masked Language Modeling (MLM) paradigm from NLP (specifically BERT) to the visual domain, termed Masked Image Modeling (MIM). BEiT pre-trains a Vision Transformer (ViT) to reconstruct original visual tokens corresponding to masked image patches. The visual tokens are obtained from a discrete Variational Autoencoder (dVAE).
 
 #### II. Pre-processing and Visual Tokenization
 
